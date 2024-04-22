@@ -18,7 +18,7 @@ const LoginForm = ({ onRoleChange }) => {
 
       // Assuming the response contains an array of user objects
       const users = response.data;
-
+      console.log(users);
       // Filter users based on the provided email
       const user = users.find((user) => user.email === email);
 
